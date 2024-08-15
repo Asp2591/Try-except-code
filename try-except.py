@@ -2,11 +2,11 @@ def full_name():
     try:
         first_name = input("Enter your first name: ")
         if not first_name:
-            raise ValueError("Give first name yarrr.")
+            raise ValueError("Give first name yarr.")
         
         last_name = input("Enter your last name: ")
         if not last_name:
-            raise ValueError("Give last name yarrs.")
+            raise ValueError("Give last name yarr.")
         
         full_name = first_name + " " + last_name
         print(f"Full name: {full_name}")
